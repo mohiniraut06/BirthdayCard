@@ -1,0 +1,26 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root{
+  --body_background:white;
+  --body_color:black;
+  --link_color:navy;
+  --background_image:url("https://previews.123rf.com/images/valentint/valentint1510/valentint151005136/46918969-web-development-icon-internet-button-on-white-background.jpg");
+}
+[data-theme='dark']{
+  --body_background:#282c34;
+  --body_color:white;
+  --link_color:cyan;
+  --background_image:url("https://inuson.com/images/webdevelopment-bg.jpg")
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+ 
+  
+}
